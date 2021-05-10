@@ -22,6 +22,9 @@ nav a.nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
+.text3{
+  color: #f7f7f7;
+}
 nav ul li {
   text-transform: uppercase;
 }
@@ -39,7 +42,12 @@ nav ul li {
 @media(max-width:768px){
   .navbar-brand{
     width: 5rem;
+   
   }
+  .logo{
+    width: 8rem; 
+    margin-top: 2rem;
+   }
 }
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid var(--primary-orange) !important;

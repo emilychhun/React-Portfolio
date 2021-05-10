@@ -1,9 +1,19 @@
 
 import './App.css';
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Particles from 'react-particles-js';
+import WorkExperience from "./components/WorkExperience";
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import AboutMe from "./components/AboutMe";
+
+import Education from './components/Education';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
 function App() {
   return (
     <>
@@ -28,8 +38,22 @@ function App() {
     }
   }}
   />
+
+<Router>
   <Navbar/>
   <Header/>
+  <AboutMe/>
+  <Portfolio/>
+  <Education/>
+   <WorkExperience/>
+ 
+  <Contact/>
+
+  <Footer/>
+  
+ 
+
+  </Router>
   </>
   );
 }

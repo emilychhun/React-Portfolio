@@ -17,19 +17,17 @@ const Navbar = () => {
               <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">about me</a>
+              <a className="nav-link" href="#aboutme">about me</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">education</a>
+              <a className="nav-link" href="#Education">Resume</a>
+            </li>
+            
+            <li className="nav-item">
+              <a className="nav-link" href="#Portfolio">portfolio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">work experience</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">portfolio</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">contacts</a>
+              <a className="nav-link" href="#Contact">contacts</a>
             </li>
            
           </ul>
