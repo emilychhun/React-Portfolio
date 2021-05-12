@@ -1,4 +1,4 @@
-<h1 align="center">✌️🤟🙏👋  Note Taker  ✌️🤟🙏👋</h1>
+<h1 align="center">✌️🤟🙏👋  My React Portfolio  ✌️🤟🙏👋</h1>
 <h1 align="center">
 
 ![badge](https://img.shields.io/npm/v/npm.svg?logo=javascript)
@@ -11,9 +11,9 @@
 
   *The what, why, and how:* 
   
-  🔍 Note Taker is simple note taking application.  It designed to allows you to create an application that can be used to write, save and delete notes, and saving and retrieving note data from a JSON file by using express backend. 
+  🔍 This is my Portfolio that I used my new React skill.  I want to share my projects not only applying for my jobs or working as a freelance, but also to share my work with fellow developers whose portfolios do not use the lastest technologies. 
 
- *Check out the [ExampleREADME.md](https://github.com/emilychhun/Note-Taker/blob/main/README.md) as an example.*
+ *Check out the [ExampleREADME.md](https://github.com/emilychhun/react-portfolio/blob/main/README.md) as an example.*
   <br />
  
   ## Table of contents
@@ -46,11 +46,11 @@
   View a demonstration of the application:
   <br />
 
-  ![](./Note-Taker1.PNG)
+  ![](./Portfolio1.PNG)
 
   <br />
   
- ![](./Note-Taker2.PNG)
+ ![](./Portfolio2.PNG)
   
   ## Licence
   📝📑
@@ -82,7 +82,7 @@
   Email me with any questions: emily_chhun23@yahoo.com
   <br />
 
-  repo link: [repo-link](https://github.com/emilychhun/Note-Taker)
+  Repo Link: [repo-link](https://github.com/emilychhun/react-portfolio)
   
   <br />
   
