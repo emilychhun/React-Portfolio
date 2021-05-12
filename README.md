@@ -46,11 +46,11 @@
   View a demonstration of the application:
   <br />
 
-  ![](./Portfolio1.PNG)
+  ![](./Portfolio1.JPG)
 
   <br />
   
- ![](./Portfolio2.PNG)
+ ![](./Portfolio2.JPG)
   
   ## Licence
   📝📑
