@@ -31,7 +31,7 @@
 
   *Steps required to install project and how to get the development environment running:*
   
-💽💽 The dependencies are necessary to be installed to be able to run the application To Run this application you are required to install nodemon, npm express, and npm package called "uuid".
+💽💽 The dependencies are necessary to be installed to be able to run the application To Run this application you are required to install react, bootstrap, react-dom, react-social-icons, web-vitals, react-particles.js, mdbreact, @fortawesome/fontawesome-svg-core, @fortawesome/free-solid-svg-icons, @fortawesome/react-fontawesome, @testing-library/react.
 
 <br />
   
@@ -39,7 +39,11 @@
   ## Usage
   *Instructions and examples for use:*
   
-  📚 After cloning the repo and installing npm inquirer, use the command line to navigate and type node index. Follow prompts to enter required fields and select from optional additional fields. The README will be created in the ./demo folder.
+1. Clone/Download the repo.
+2. Run npm install.
+3. Change the values in src/resumeData.js to suit your use-case.
+4. Run npm start to spin the up the local dev server port 3000.(http://localhost:3000).
+5. Make required changes in src/resumeData.js to suit your needs.
   
    *Demo*
 
@@ -50,7 +54,9 @@
 
   <br />
   
+  
  ![](./Portfolio2.JPG)
+ 
   
   ## Licence
   📝📑
