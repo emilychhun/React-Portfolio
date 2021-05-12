@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+<h1 align="center">✌️🤟🙏👋  Note Taker  ✌️🤟🙏👋</h1>
+<h1 align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![badge](https://img.shields.io/npm/v/npm.svg?logo=javascript)
+![badge](https://img.shields.io/npm/v/npm.svg?logo=npm)
+![badge](https://img.shields.io/npm/v/npm.svg?logo=javascript)
 
-## Available Scripts
+</h1>
 
-In the project directory, you can run:
+## Description 
 
-### `npm start`
+  *The what, why, and how:* 
+  
+  🔍 Note Taker is simple note taking application.  It designed to allows you to create an application that can be used to write, save and delete notes, and saving and retrieving note data from a JSON file by using express backend. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ *Check out the [ExampleREADME.md](https://github.com/emilychhun/Note-Taker/blob/main/README.md) as an example.*
+  <br />
+ 
+  ## Table of contents
+  - [Description](#Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Licence](#Licence)
+  - [Contributors](#Contributors)
+  - [Test](#Test)
+  - [Repository Link](#Repository)
+ 
+  <br />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ ## Installation
 
-### `npm test`
+  *Steps required to install project and how to get the development environment running:*
+  
+💽💽 The dependencies are necessary to be installed to be able to run the application To Run this application you are required to install nodemon, npm express, and npm package called "uuid".
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br />
+  
+  
+  ## Usage
+  *Instructions and examples for use:*
+  
+  📚 After cloning the repo and installing npm inquirer, use the command line to navigate and type node index. Follow prompts to enter required fields and select from optional additional fields. The README will be created in the ./demo folder.
+  
+   *Demo*
 
-### `npm run build`
+  View a demonstration of the application:
+  <br />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ![](./Note-Taker1.PNG)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <br />
+  
+ ![](./Note-Taker2.PNG)
+  
+  ## Licence
+  📝📑
+  
+  ![badge](https://img.shields.io/badge/license-GNU-brightgreen)
+  <br />
+  
+ 
+  ## Contributors
+  💆🏽💆🏻‍♂️👳🏽👳🏽👳🏻‍♀️👨🏾‍🦽👨🏿‍🤝‍👨🏾As I use this for my own projects, i want to contribute to everybody such as students, my friends, and other users. I know this might not be the perfect README for all projects out there. If your vision of a perfect README.md differs greatly from mine, tell me what you think and we open an issue. If you'd like to contribute,  please do pull requests and make changes as you'd like. In this case, you can create a new file README-yourplatform.md and create the perfect boilerplate for that.
+  <br />
+ 
+ 
+  ## Test
+  🥇 *Tests for application and how to run them:*
+ 
+   There is no test information for this application at this time.
+  <br />
+ 
+  ## Questions
+  <br />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   *✋For any questions, please contact me with the information below:*
+  <br />
 
-### `npm run eject`
+ Find me on GitHub: [emilychhun](https://github.com/emilychhun)
+ <br />
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  Email me with any questions: emily_chhun23@yahoo.com
+  <br />
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  repo link: [repo-link](https://github.com/emilychhun/Note-Taker)
+  
+  <br />
+  

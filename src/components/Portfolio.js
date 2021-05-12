@@ -17,14 +17,14 @@ function Portfolio() {
         <div class="content">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-4">
                         <div class="card">
-                            <a class="img-card" href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html">
+                            <a class="img-card" href="https://github.com/alexreveles/movie-hunt-app" target="-blank">
                             <img src="../../images/img-9.jpg" />
                           </a>
                             <div class="card-content">
                                 <h4 class="card-title">
-                                    <a href="https://github.com/alexreveles/movie-hunt-app"> Movie Hunt App
+                                    <a href="https://github.com/alexreveles/movie-hunt-app " target="-blank"> Movie Hunt App
                                   </a>
                                 </h4>
                                 <p class="">
@@ -42,22 +42,22 @@ function Portfolio() {
                                 </p>
                             </div>
                             <div class="card-read-more">
-                                <a href="https://github.com/alexreveles/movie-hunt-app" class="btn btn-link btn-block">
-                                    Read More
+                                <a href="https://github.com/alexreveles/movie-hunt-app" target="-blank" class="btn btn-link btn-block">
+                                    GitHUB LINK
                                 </a>
                             </div>
                         </div>
                     </div>
                    
                    
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-4">
                         <div class="card">
-                            <a class="img-card" href="https://github.com/GRech17/Movie-Thumbs">
+                            <a class="img-card" href="https://github.com/GRech17/Movie-Thumbs" target="-blank">
                             <img src="../../images/img-2.jpg" />
                           </a>
                             <div class="card-content">
                                 <h4 class="card-title">
-                                    <a href="https://github.com/GRech17/Movie-Thumbs"> Movie Thumbs
+                                    <a href="https://github.com/GRech17/Movie-Thumbs" target="-blank"> Movie Thumbs
                                   </a>
                                 </h4>
                                 <p class="">
@@ -76,13 +76,43 @@ function Portfolio() {
                                 </p>
                             </div>
                             <div class="card-read-more">
-                                <a href="https://codepen.io/wisnust10/full/ZWERZK/" class="btn btn-link btn-block">
-                                    Read More
+                                <a href="https://github.com/GRech17/Movie-Thumbs" target="-blank" class="btn btn-link btn-block">
+                                    GITHUB LINK
                                 </a>
                             </div>
                         </div>
                     </div>
-                  
+                   <div class="col-xs-12 col-sm-4">
+                        <div class="card">
+                            <a class="img-card" href="https://github.com/emilychhun/Budget-Tracker/tree/main/Develop" target="-blank">
+                            <img src="../../images/img-10.jpg" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <a href="https://github.com/emilychhun/Budget-Tracker/tree/main/Develop" target="-blank">Budget Tracker
+                                  </a>
+                                </h4>
+                                <p class="">
+                                Node &  Express
+                              <br></br>
+                                dotenv
+                                <br></br>
+                                compression
+                                <br></br>
+                                mongoose & morgan
+                                <br></br>
+                                webpack 
+                                <br></br>
+                                webpack-cli
+                                </p>
+                            </div>
+                            <div class="card-read-more">
+                                <a href="https://github.com/emilychhun/Budget-Tracker/tree/main/Develop" target="-blank" class="btn btn-link btn-block">
+                                    GITHUB LINK
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -100,12 +130,12 @@ function Portfolio() {
                 <div class="row">
                     <div class="col-xs-12 col-sm-4">
                         <div class="card">
-                            <a class="img-card" href="https://github.com/emilychhun/Note-Taker">
+                            <a class="img-card" href="https://github.com/emilychhun/Note-Taker" target="-blank">
                             <img src="../../images/img-3.jpg" />
                           </a>
                             <div class="card-content">
                                 <h4 class="card-title">
-                                    <a href="https://github.com/emilychhun/Note-Taker"> Note Taker
+                                    <a href="https://github.com/emilychhun/Note-Taker" target="-blank"> Note Taker
                                   </a>
                                 </h4>
                                 <p class="">
@@ -119,8 +149,8 @@ function Portfolio() {
                                 </p>
                             </div>
                             <div class="card-read-more">
-                                <a href="https://github.com/alexreveles/movie-hunt-app" class="btn btn-link btn-block">
-                                    Read More
+                                <a href="https://github.com/emilychhun/Note-Taker" target="-blank" class="btn btn-link btn-block">
+                                    GITHUB LINK
                                 </a>
                             </div>
                         </div>
@@ -129,12 +159,12 @@ function Portfolio() {
                    
                     <div class="col-xs-12 col-sm-4">
                         <div class="card">
-                            <a class="img-card" href="https://github.com/emilychhun/socail-network-api">
+                            <a class="img-card" href="https://github.com/emilychhun/socail-network-api" target="-blank">
                             <img src="../../images/img-4.jpg" />
                           </a>
                             <div class="card-content">
                                 <h4 class="card-title">
-                                    <a href="https://github.com/emilychhun/socail-network-api"> Social NetWork Api
+                                    <a href="https://github.com/emilychhun/socail-network-api" target="-blank"> Social NetWork Api
                                   </a>
                                 </h4>
                                 <p class="">
@@ -149,20 +179,20 @@ function Portfolio() {
                                 </p>
                             </div>
                             <div class="card-read-more">
-                                <a href="https://codepen.io/wisnust10/full/ZWERZK/" class="btn btn-link btn-block">
-                                    Read More
+                                <a href="https://github.com/emilychhun/socail-network-api" target="-blank" class="btn btn-link btn-block">
+                                    GITHUB LINK
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <div class="card">
-                            <a class="img-card" href="https://github.com/emilychhun/mvc-tech-blog-chhun">
+                            <a class="img-card" href="https://github.com/emilychhun/mvc-tech-blog-chhun" target="-blank">
                             <img src="../../images/img-8.jpg" />
                           </a>
                             <div class="card-content">
                                 <h4 class="card-title">
-                                    <a href="https://github.com/emilychhun/mvc-tech-blog-chhun">MVC Tech Blog 
+                                    <a href="https://github.com/emilychhun/mvc-tech-blog-chhun" target="-blank">MVC Tech Blog 
                                   </a>
                                 </h4>
                                 <p class="">
@@ -174,8 +204,8 @@ function Portfolio() {
                                 </p>
                             </div>
                             <div class="card-read-more">
-                                <a href="https://github.com/emilychhun/mvc-tech-blog-chhun" class="btn btn-link btn-block">
-                                    Read More
+                                <a href="https://github.com/emilychhun/mvc-tech-blog-chhun" target="-blank" class="btn btn-link btn-block">
+                                    GITHUB LINK
                                 </a>
                             </div>
                         </div>
