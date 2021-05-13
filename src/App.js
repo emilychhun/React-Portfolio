@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Particles from 'react-particles-js';
-import WorkExperience from "./components/WorkExperience";
+
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import AboutMe from "./components/AboutMe";
@@ -45,7 +45,8 @@ function App() {
   <AboutMe/>
   <Portfolio/>
   <Education/>
-   <WorkExperience/>
+
+
  
   <Contact/>
 
