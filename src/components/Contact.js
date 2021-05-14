@@ -1,79 +1,103 @@
-import React from 'react';
-import axios from 'axios';
 
-class App extends React.Component {
+import React from "react";
 
-  constructor(props) {
-   
-    super(props);
-    this.state = {
-      name: '',
-      email: '',
-      message: ''
+const initialState = {
+  name: "",
+  email: "",
+  password: "",
+  nameError: "",
+  emailError: "",
+  passwordError: ""
+};
+
+export default class App extends React.Component {
+  state = initialState;
+
+  handleChange = event => {
+    const isCheckbox = event.target.type === "checkbox";
+    this.setState({
+      [event.target.name]: isCheckbox
+        ? event.target.checked
+        : event.target.value
+    });
+  };
+
+  validate = () => {
+    let nameError = "";
+    let emailError = "";
+    // let passwordError = "";
+
+    if (!this.state.name) {
+      nameError = "name cannot be blank";
     }
-  }
 
-  handleSubmit(e){
-    e.preventDefault();
-    axios({
-  
-    }).then((response)=>{
-      if (response.data.status === 'success') {
-        alert("Message Sent.");
-        this.resetForm()
-      } else if (response.data.status === 'fail') {
-        alert("Message failed to send.")
-      }
-    })
-  }
+    if (!this.state.email.includes("@")) {
+      emailError = "invalid email";
+    }
 
-  resetForm(){
-    this.setState({name: "", email: "", message:""})
-  }
+    if (emailError || nameError) {
+      this.setState({ emailError, nameError });
+      return false;
+    }
+
+    return true;
+  };
+
+  handleSubmit = event => {
+    event.preventDefault();
+    const isValid = this.validate();
+    if (isValid) {
+      console.log(this.state);
+      // clear form
+      this.setState(initialState);
+    }
+  };
 
   render() {
-    
-    return(
-      
+    return (
       <div className='cards' id="Contact" id="Contact2">
-        <h1>Contact</h1>
-             <div className='cards__container'>
-        <div className='cards__wrapper'>
+         <h1>Contact</h1>
+         <div className='cards__container'>
+       <div className='cards__wrapper'>
       <div className="App">
-        <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-          <div className="form-group">
-              <label htmlFor="name">Name</label>
-              <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+      <form id="contact-form" onSubmit={this.handleSubmit}>
+      <div className="form-group">
+          <input
+            name="name"
+            placeholder="name"
+            value={this.state.name}
+            onChange={this.handleChange}
+          />
+          <div style={{ fontSize: 12, color: "red" }}>
+            {this.state.nameError}
           </div>
-          <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Email address</label>
-              <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
-          </div>
-          <div className="form-group">
-              <label htmlFor="message">Message</label>
-              <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
-          </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
-        </form>
-      </div>
-      </div>
-      </div>
-      </div>
+        </div>
 
+          <div className="form-group">
+          <input
+            name="email"
+            placeholder="email"
+            value={this.state.email}
+            onChange={this.handleChange}
+          />
+          <div style={{ fontSize: 12, color: "red" }}>
+            {this.state.emailError}
+          </div>
+        </div>
+       
+         <div className="form-group">
+              <label htmlFor="message" style={{color:"white"}}>Message</label>
+             <textarea className="form-control" rows="5" id="message" value={this.state.message}  onChange={this.handleChange} />
+       </div>
+        
+        <button type="submit">submit</button>
+      </form>
+      </div>
+      </div>
+      </div>
+      </div>
     );
-  }
-
-  onNameChange(event) {
-	  this.setState({name: event.target.value})
-  }
-
-  onEmailChange(event) {
-	  this.setState({email: event.target.value})
-  }
-
-  onMessageChange(event) {
-	  this.setState({message: event.target.value})
   }
 }
 
-export default App;
+

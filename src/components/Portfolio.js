@@ -1,6 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
-import PortfolioItem from './PortfolioItem';
+
 // import Picture1 from 'images/img-9.jpg'
 
 function Portfolio() {
